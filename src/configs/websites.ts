@@ -2,13 +2,13 @@ import type { WebsitesData } from "~/types";
 
 const websites: WebsitesData = {
   favorites: {
-    title: "SNS Links",
+    title: "社交链接",
     sites: [
       {
         id: "my-blog",
-        title: "Website",
+        title: "老言博客",
         img: "https://blog.zxh.io/img/avatar.jpg",
-        link: "https://zxh.io/",
+        link: "https://www.laoyan.me/",
         inner: true
       },
       {
@@ -19,7 +19,7 @@ const websites: WebsitesData = {
       },
       {
         id: "my-linkedin",
-        title: "Linkedin",
+        title: "灵应",
         img: "img/sites/linkedin.svg",
         link: "https://www.linkedin.com/in/xiaohan-zou"
       },
